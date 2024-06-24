@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /**
  *
  * <div class="parent">
@@ -15,12 +18,12 @@
  *
  */
 
-const parent = React.createElement("div", { class: "parent" }, [
-  React.createElement("div", { class: "child" }, [
+const parent = React.createElement("div", { className: "parent" }, [
+  React.createElement("div", { className: "child" }, [
     React.createElement("h1", {}, "I'm h1 tag"),
     React.createElement("h2", {}, "I'm h2 tag"),
   ]),
-  React.createElement("div", { class: "child2" }, [
+  React.createElement("div", { className: "child2" }, [
     React.createElement("h1", {}, "I'm h1 tag"),
     React.createElement("h2", {}, "I'm h2 tag"),
   ]),
