@@ -12,3 +12,10 @@
   - Links
   - Address
   - Contact
+
+## React Hooks
+
+(Normal JS utility functions)
+
+- useState() - Superpowerful state variables
+- useEffect()

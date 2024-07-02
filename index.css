@@ -72,3 +72,8 @@ body {
 .stars {
   margin: 5px 0;
 }
+
+.btn {
+  padding: 8px 12px;
+  margin: 12px 7px;
+}
